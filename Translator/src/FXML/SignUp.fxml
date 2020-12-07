@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="402.0" prefWidth="300.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField fx:id="username" layoutX="56.0" layoutY="86.0" prefHeight="23.0" prefWidth="192.0" text="Enter Your Username" unFocusColor="#c2bbbb" />
+      <JFXPasswordField fx:id="password" layoutX="55.0" layoutY="150.0" prefHeight="23.0" prefWidth="192.0" text="Enter Your Password" unFocusColor="#c2bbbb" />
+      <JFXRadioButton fx:id="male" layoutX="40.0" layoutY="237.0" text="Male" textFill="#c2bbbb" />
+      <JFXRadioButton fx:id="female" layoutX="163.0" layoutY="237.0" text="Female" textFill="#c2bbbb" />
+      <JFXButton fx:id="signup" layoutX="66.0" layoutY="327.0" prefHeight="23.0" prefWidth="167.0" style="-fx-background-color: #9d9fdd;" text="Sign Up" />
+      <JFXButton fx:id="login" layoutX="212.0" layoutY="22.0" style="-fx-background-color: #9d9fdd;" text="Login" />
+   </children>
+</AnchorPane>
